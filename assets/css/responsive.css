@@ -1,0 +1,146 @@
+@media (min-width:300px) and (max-width:576px) {
+    header , section , footer{
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .top-img {
+        width: 100%;
+    }
+    .top-sec p {
+        font-size: 10px;
+    }
+    .navbar {
+        padding-top: 60px;
+    }
+    .navbar .navbar-brand img {
+        width: 150px;
+    }
+    .navbar .nav-item .nav-link {
+        display: inline-block;
+        font-size: 14px;
+    }
+    .navbar .nav-item .nav-link:hover::after {
+        width: 100%;
+    }
+    .industry-txt {
+        border-bottom: 1px solid;
+        border-right: none;
+    }
+    .ft-txt {
+        text-align: center;
+    }
+    .ft-img {
+        margin: auto;
+    }
+    .prd-hed p:first-child {
+        font-size: 20px;
+    }
+    .testi-txt h3 {
+        width: 270px;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    header , section , footer{
+        overflow: hidden;
+    }
+    .top-sec {
+        width: 100%;
+    }
+    .top-sec p {
+        font-size: 14px;
+    }
+    .navbar {
+        padding-top: 50px;
+    }
+    .testi-txt h3 {
+        margin: auto;
+    }
+    
+    .test-line {
+        margin: 35px 210px;
+    }
+    .industry-txt {
+        border-bottom: 1px solid;
+        border-right: none;
+    }
+    .ft-img {
+        margin: auto;
+    }
+    .ft-txt {
+        text-align: center;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    header , section , footer{
+        overflow: hidden;
+    }
+    p {
+        font-size: 20px;
+    }
+    .top-img {
+        width: 85%;
+}
+.navbar {
+    padding-top: 50px;
+}
+.bd-line {
+    border: none;
+} 
+h4 {
+    font-size: 25px;
+}
+.ft-txt a {
+    font-size: 20px;
+}
+.ft-txt {
+    text-align: center;
+}
+a {
+    font-size: 20px;
+}
+.navbar .nav-item .nav-link {
+    font-size: 25px;
+    display: inline-block;
+}
+.testi-txt h3 {
+    margin: auto;
+}
+.test-line {
+    margin: 35px 43%;
+}
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+    header , section , footer{
+        overflow: hidden;
+    }
+    .top-img {
+        width: 65%;
+    }
+    .navbar .navbar-brand img {
+        width: 100px;
+    }
+    .navbar .nav-item .nav-link {
+        margin: 0px 3px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1420px) {
+    header , section , footer{
+        overflow: hidden;
+    }
+    .top-img {
+        width: 60%;
+    }
+    
+}

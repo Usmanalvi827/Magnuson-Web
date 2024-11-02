@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sen:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom Css Open */
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #5d5d5d;
+}
+
+h4 {
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+}
+
+span , .red-txt{
+  color: #ff3900;
+}
+
+.main-btn {
+    background-color: #333333;
+    color: white;
+    padding: 12px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    transition: .3s ease all;
+    border: 1px solid #333333;
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    border: 1px solid #ff3900;
+    color: #ff3900;
+}
+
+.sec-btn {
+    background-color: white;
+    padding: 12px 25px;
+    color: #ff3900;
+    border-radius: 3px;
+    border: none;
+    transition: .3s ease all;
+    border: 1px solid white;
+}
+
+.sec-btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.wrapper {
+    padding: 100px 0px;
+}
+ 
+/* Custom Css Close */
+
+.top-img {
+    background-image: url(..//Images/rectangle.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.top-sec p {
+    padding: 10px 0px 10px 55px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+
+/* Navbar Sec Open */
+
+.navbar {
+    padding:  30px 0px 20px 0px;
+}
+
+.navbar .navbar-brand img {
+    width: 200px;
+}
+
+.navbar .nav-item .nav-link {
+    color: #333333;
+    margin: 0px 8px;
+    font-size: 17px;
+    position: relative;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #ff3900;
+}
+
+.navbar .nav-item .nav-link::after {
+content: "";
+position: absolute;
+width: 0%;
+height: 2px;
+background-color: #ff3900;
+left: 0;
+bottom: 0;
+transition: .3s ease all;
+}
+
+.navbar .nav-item .nav-link:hover::after {
+    width: 100%; 
+}
+
+.nav-hed .navbar-toggler {
+    border: none;
+    color: #000;
+    line-height: 2;
+    box-shadow: none;
+}
+
+/* Navbar Sec Close */
+
+/* BannerSec Open */
+
+.top-banner {
+    background-image: url(..//Images/ban-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* BannerSec Close */
+
+/* BannerPara Sec Open */
+
+.banpara {
+    background-color: #333333;
+    padding: 60px 0px;
+}
+
+/* BannerPara Sec Close */
+
+/* AboutSec Open  */
+.abt-txt p:first-child , .prd-hed p ,.para-lg {
+    font-weight: 550;
+}
+
+.abt-txt p:last-child {
+    color: #333333;
+}
+
+.line-set {
+    width: 100px;
+    height: 2px;
+    background-color: #ff3900;
+    margin: 20px 0px;
+}
+
+/* AboutSec Close  */
+
+/* ProductSec Open */
+
+.prd-sec {
+   background-color:#fafcfe ; 
+}
+
+/* ProductSec Close */
+
+/* TestimonialSec Open */
+
+.testimonial-sec {
+    background-image: url(..//Images/testi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.testi-txt h3 {
+       color: white;
+    width: 350px;
+    margin: 0px auto;
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+
+.test-line {
+    width: 100px;
+    height: 3px;
+    background-color: #ff3900;
+    margin: 25px auto;
+}
+
+.main-para {
+    line-height: 35px;
+    width: 90%;
+    margin: auto;
+}
+
+.testi-icons i {
+    color: #ff3900;
+    font-size: 20px;
+    margin: 0px 10px;
+}
+/* TestimonialSec Close */
+
+/* IndustriesSec Open */
+
+.industry-txt {
+    border-right: 1px solid black;
+}
+
+/* IndustriesSec Close */
+
+/* Footer-sec Open */
+
+.ft-sec {
+    background-color: #000;
+}
+
+.ft-img {
+    background-color: white;
+    width: 230px;
+    height: 280px;
+}
+
+.ft-icons i {
+        font-size: 17px;
+        width: 30px;
+        height: 30px;
+        background: black;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+        color: #ff3900;
+}
+
+.ft-txt a {
+    display: block;
+    color: white;
+    line-height: 30px;
+}
+
+/* Footer-sec Close */
